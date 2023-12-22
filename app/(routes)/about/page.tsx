@@ -12,6 +12,7 @@ import image5 from '@/public/about/about4.jpeg';
 import image6 from '@/public/about/about5.jpeg';
 import studio from "@/public/studio.jpeg"; 
 import Container from "@/components/ui/container";
+import type { StaticImageData } from 'next/image';
 
 const About: React.FC = () => {
   const images: StaticImageData[] = [image1, image2, image3, image4, image5, image6];
