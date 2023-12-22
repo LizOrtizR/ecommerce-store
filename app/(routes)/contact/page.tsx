@@ -48,7 +48,12 @@ const Contact: React.FC = () => {
         </div>
         <div className="flex flex-col md:flex-row md:space-x-6">
           <div className="flex-1 mb-6 md:mb-0">
-            <form>
+          <form
+              
+              action='https://getform.io/f/beec0b0a-cb36-4de8-89d5-a97851d37a6a'
+              method='POST'
+              encType='multipart/form-data'
+            >
               <div className="mb-4">
                 <label htmlFor="name" className="block text-gray-800 font-semibold mb-2">
                   Name
