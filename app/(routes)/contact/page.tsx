@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const formData = new FormData(event.currentTarget);
-    fetch('https://getform.io/f/beec0b0a-cb36-4de8-89d5-a97851d37a6a', {
+    fetch('https://getform.io/f/9c463745-9c72-4eca-9f35-0ef4f5f7728d', {
       method: 'POST',
       body: formData,
     })
@@ -110,7 +110,7 @@ const Contact: React.FC = () => {
                     <textarea
                       id="message"
                       name="message"
-                      rows={8}
+                      rows={4}
                       className="w-full px-3 py-2 border rounded-2xl border-gray-300 focus:outline-none focus:border-indigo-500"
                     ></textarea>
                   </div>
