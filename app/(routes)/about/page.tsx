@@ -29,7 +29,7 @@ const About: React.FC = () => {
   return (
     <div>
    
-      <div className="flex flex-col items-center py-12" style={{ backgroundImage: `url('/fondo5.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center center',filter: 'brightness(90%)', }}>
+      <div className="flex flex-col items-center py-12" >
       <Container>
       <div className="flex flex-col md:flex-row justify-center items-center p-8">
         <div className="max-w-2xl md:mr-8">
